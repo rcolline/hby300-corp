@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: ray
   labels:
-    injection: enabled
+    istio-injection: enabled
     
