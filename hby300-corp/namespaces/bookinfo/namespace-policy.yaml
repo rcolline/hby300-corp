@@ -9,7 +9,7 @@ spec:
     methods: ["GET"]
     constraints:
     - key: "destination.labels[app]"
-      values: ["productpage", "details"]
+      values: ["productpage", "details", "reviews", "ratings"]
 ---
 apiVersion: "rbac.istio.io/v1alpha1"
 kind: ServiceRoleBinding
